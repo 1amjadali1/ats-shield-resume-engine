@@ -39,8 +39,9 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button variant="ghost" size="sm" className="hidden md:flex">Log in</Button>
-          <Button size="sm" className="shadow-lg shadow-primary/20">Get Started</Button>
+          <Link href="/builder">
+            <Button size="sm" className="shadow-lg shadow-primary/20">Create Resume</Button>
+          </Link>
         </div>
       </div>
     </header>
